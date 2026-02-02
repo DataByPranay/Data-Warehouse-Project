@@ -128,7 +128,7 @@ BEGIN
 		TRUNCATE TABLE bronze.erp_PX_CAT_G1V2;
 			PRINT '>> Inserting Data Into: bronze.erp_PX_CAT_G1V2';
 		BULK INSERT bronze.erp_PX_CAT_G1V2
-		FROM 'H:\My Drive\DA - DS\SQL\SQL Data Warehousing Project\Data Warehousing\datasets\source_crm\cust_info.csv'
+		FROM 'H:\My Drive\DA - DS\SQL\SQL Data Warehousing Project\Data Warehousing\datasets\source_erp\PX_CAT_G1V2.csv'
 		WITH(
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
