@@ -1,41 +1,110 @@
-# **Data-Warehouse-Project**
-Building a modern data warehouse with SQL Server, implementing data modeling, ETL workflows, and reporting-ready datasets.
+# 🏢 Data-Warehouse-Project
 
-Welcome to the Data Warehouse and Analytics Project repository! 
+Building a **modern data warehouse using SQL Server**, implementing **data modeling, ETL workflows**, and creating **reporting-ready datasets** for analytics.
 
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse & Analytics Project** repository!  
+This project demonstrates an **end-to-end data warehousing solution**, from raw data ingestion to analytics-ready datasets, following **industry best practices in data engineering**.
 
+---
 
-🏗️ **Data Architecture**
-The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers: Data Architecture
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/cb7a8d52-36db-4d3c-827a-0f9a51f202a9" />
+## 📖 Project Overview
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database. 
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+This portfolio project showcases how to design and implement a **scalable data warehouse** that supports analytical reporting and business decision-making.
 
-📖 Project Overview
+The project covers:
+- Modern **data architecture design**
+- Robust **ETL pipelines**
+- Analytical **data modeling**
+- Reporting-ready datasets for **analytics & dashboards**
 
-This project involves:
+---
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+## 🏗️ Data Architecture
 
+The data architecture follows the **Medallion Architecture** pattern with **Bronze, Silver, and Gold layers**.
 
-🚀 **Project Requirements**
+![Data Architecture](https://github.com/user-attachments/assets/cb7a8d52-36db-4d3c-827a-0f9a51f202a9)
 
-**Building the Data Warehouse (Data Engineering)**
+### 🔹 Bronze Layer
+- Stores **raw data** ingested directly from source systems
+- Data is loaded **as-is** from CSV files into SQL Server
+- Acts as the single source of truth for raw data
 
-**Objective**
+### 🔹 Silver Layer
+- Performs **data cleansing, standardization, and normalization**
+- Handles data quality issues and prepares data for transformation
+- Creates structured, reliable datasets for analytics
 
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+### 🔹 Gold Layer
+- Contains **business-ready data**
+- Modeled using a **star schema** (fact & dimension tables)
+- Optimized for **reporting and analytical queries**
 
-**Specifications**
+---
 
-1. **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-2. **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-3. **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-4. **Scope**: Focus on the latest dataset only; historization of data is not required.
-5. **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+## 🔄 Project Components
+
+### 1️⃣ Data Architecture
+- Designed a **Modern Data Warehouse** using Medallion Architecture
+- Clear separation of raw, refined, and analytics-ready data
+
+### 2️⃣ ETL Pipelines
+- Extract data from multiple source systems
+- Transform data to resolve quality and consistency issues
+- Load transformed data into analytical models
+
+### 3️⃣ Data Modeling
+- Developed **fact and dimension tables**
+- Optimized schema for fast analytical queries
+- Designed to support reporting and BI tools
+
+### 4️⃣ Analytics & Reporting
+- Created **SQL-based analytical datasets**
+- Enabled insights for sales and business performance
+- Ready for integration with BI dashboards
+
+---
+
+## 🚀 Project Requirements
+
+### 🎯 Objective
+Develop a **modern data warehouse using SQL Server** to consolidate sales data, enabling **analytical reporting** and **data-driven decision-making**.
+
+---
+
+### 📌 Specifications
+
+1. **Data Sources**
+   - Two source systems: **ERP** and **CRM**
+   - Data provided in **CSV file format**
+
+2. **Data Quality**
+   - Cleanse and resolve data quality issues
+   - Ensure consistency before analysis
+
+3. **Data Integration**
+   - Merge both source systems into a **single analytical data model**
+   - Designed for ease of querying and reporting
+
+4. **Scope**
+   - Focus on the **latest dataset only**
+   - No historization or slowly changing dimensions required
+
+5. **Documentation**
+   - Clear documentation of:
+     - Data architecture
+     - Data model
+     - ETL process
+   - Supports both **business stakeholders** and **analytics teams**
+
+---
+
+## 🛠️ Tools & Technologies
+- SQL Server
+- SQL (T-SQL)
+- CSV Data Sources
+- Data Warehousing Concepts
+- Star Schema Modeling
+
+---
+
